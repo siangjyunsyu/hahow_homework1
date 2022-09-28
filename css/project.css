@@ -1,0 +1,105 @@
+body {
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 微軟正黑體;    
+}
+.container-fluid{
+    background-color: #c1ddf7;
+    padding: 0;
+    margin: 0;
+    height: 930px;
+    border-top: solid 20px #4b55c0;
+    border-bottom: solid 20px #4b55c0;
+}
+.card{
+    display: flex;
+    align-items: center;
+    background-color: #c1ddf7;  
+    height: 100%;
+}
+.namecard{
+    width: 500px;
+    height: 270px;
+    padding: 30px;
+    margin-top: 150px;
+    margin-bottom: 20px;
+    justify-content: center;
+    background-color: #eee;
+    position: relative;
+    letter-spacing: 1px;
+    color: #666;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.namecard:hover {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(5px) translateX(5px);
+  }
+  .namecard:hover .circle1 {
+    transform-origin: 50% 50%;
+    transform: scale(1.1);
+  }
+  .namecard:hover .circle2 {
+    transform-origin: 50% 50%;
+    transform: scale(1.3);
+  }
+  .namecard:hover .circle3 {
+    transform-origin: 50% 50%;
+    transform: scale(1.1);
+  }
+.name{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-weight: bold;
+}
+.little_eng, .description, .namecard{
+    font-size: 0.75rem;
+    line-height: 1.4rem;
+}
+.note{
+    color: #4677bb;
+    color: #635bf5;
+}
+.job{
+    font-size: 1rem;
+    color: #4B55C0;
+    font-weight: bold;
+}
+.circle{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+.circle1{
+    right: 130px;
+    bottom: -78px;
+    background-color: #4B55C0;
+}
+.circle2{
+    border: solid 4px #4B55C0;
+    width: 80px;
+    height: 80px;
+    right: -30px;
+    top: -30px;
+}
+.circle3 {
+    border: solid 4px #4b55c0;
+    width: 80px;
+    height: 80px;
+    right: 80px;
+    bottom: -60px;
+}
+.mark {
+    font-size: 300px;
+    position: absolute;
+    bottom: 20px;
+    color: rgba(0, 0, 0, 0.03);
+    text-align: center;
+    background-color: #c1ddf7;
+}
+  .page_title {
+    text-align: center;
+    color: #4b55c0;
+  }
